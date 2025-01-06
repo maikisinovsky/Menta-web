@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function Login() {
   return (
     <div className='login-container'>
-         <hgroup className='contact-container'>
+<hgroup className='contact-container'>
+
             <label className='sign-label'>Mail/Telefono</label>
             <input type="text" className='sign-input'></input>
         </hgroup>
@@ -21,7 +24,7 @@ function Login() {
 
         <button className='sign-button'>Inicia sesión</button>
 
-        <p className='login-text'>¿No tienes cuenta? <Link to="/Login">Registrate</Link></p>
+        <p className='signup-text'>¿No tienes cuenta? <Link to="/Signup">Registrate</Link></p>
     </div>
   )
 }
