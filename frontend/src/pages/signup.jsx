@@ -35,7 +35,7 @@ function Signup() {
       </section>
 
       <button></button>
-        <p className='login-text'>¿Ya tienes cuenta? <Link to="/Login">Registrate</Link></p>
+        <p className='login-text'>¿Ya tienes cuenta? <Link to="/Login" className='link'>Registrate</Link></p>
     </div>
   )
 }

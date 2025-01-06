@@ -25,7 +25,7 @@ function Login() {
 
         <button className='login-button'>Inicia sesión</button>
 
-        <p className='sign-text'>¿No tienes cuenta? <Link to="/Signup">Registrate</Link></p>
+        <p className='sign-text'>¿No tienes cuenta? <Link to="/Signup" className='link'>Registrate</Link></p>
     </div>
   )
 }
