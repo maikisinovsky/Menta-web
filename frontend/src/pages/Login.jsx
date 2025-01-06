@@ -5,26 +5,27 @@ import { Link } from 'react-router-dom'
 function Login() {
   return (
     <div className='login-container'>
-<hgroup className='contact-container'>
 
-            <label className='sign-label'>Mail/Telefono</label>
-            <input type="text" className='sign-input'></input>
-        </hgroup>
+        <section className='contact-container'>
+
+            <label className='login-label'>Mail/Telefono</label>
+            <input type="text" className='login-input'></input>
+        </section>
             
-        <hgroup className='password-container'>
-            <label className='sign-label'>Contraseña</label>
-            <input type="text" className='sign-input'></input>
-        </hgroup>
+        <section className='password-container'>
+            <label className='login-label'>Contraseña</label>
+            <input type="text" className='login-input'></input>
+        </section>
             
-        <hgroup className='name-container'>
-            <label className='sign-label'>Nombre que figure en el pedido</label>
-            <input type="text" className='name-input' placeholder="Nombre..."></input>
+        <section className='name-container'>
+            <label className='login-label'>Nombre que figure en el pedido</label>
+            <input type="text" className='login-input' placeholder="Nombre..."></input>
 
-        </hgroup>
+        </section>
 
-        <button className='sign-button'>Inicia sesión</button>
+        <button className='login-button'>Inicia sesión</button>
 
-        <p className='signup-text'>¿No tienes cuenta? <Link to="/Signup">Registrate</Link></p>
+        <p className='sign-text'>¿No tienes cuenta? <Link to="/Signup">Registrate</Link></p>
     </div>
   )
 }
