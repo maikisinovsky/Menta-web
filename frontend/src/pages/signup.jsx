@@ -8,7 +8,8 @@ function Signup() {
       <div className='sign-container'>
 
       <h2 className='sign-title'>Registro</h2>
-      <section>
+
+      <main className='form-container'> 
         <section className='container'>
         <label className='sign-label'>Nombre y apellido</label>
         <input type='text' className='sign-input'></input>
@@ -23,13 +24,14 @@ function Signup() {
 
         <div className='container'>
           <label className='sign-label'>DNI</label>
-          <input type='text' className='sign-input'></input>
+          <input type='text' className='dni-input'></input>
         </div>
 
         <div className='container'>
           <label className='sign-label'>Teléfono</label>
-          <input type='text' className='sign-input'></input>
+          <input type='text' className='phone-input' ></input>
         </div>
+
       </section>
 
       <section className='container'>
@@ -37,11 +39,11 @@ function Signup() {
         <input type='text' className='sign-input'></input>
       </section>
 
-      </section>
+      </main>
       
-      <button>Registrarse</button>
+      <button className='sign-button'>Registrarse</button>
 
-      <p className='login-text'>¿Ya tienes cuenta? <Link to="/Login" className='link'>Registrate</Link></p>
+      <p className='login-text'>¿Ya tienes cuenta? <Link to="/Login" className='link'>Inicia sesión</Link></p>
 
       </div>
     </main>
