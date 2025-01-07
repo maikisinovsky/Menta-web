@@ -4,8 +4,8 @@ import '../styles/Signup.css'
 
 function Signup() {
   return (
-    <main className='background-one'>
-      <div className='sign-container'>
+    <section className='background-one'>
+      <form className='sign-container'>
 
       <h2 className='sign-title'>Registro</h2>
 
@@ -36,17 +36,17 @@ function Signup() {
 
       <section className='container'>
         <label className='sign-label'>Contraseña</label>
-        <input type='text' className='sign-input'></input>
+        <input type='password' className='sign-input'></input>
       </section>
 
       </main>
       
-      <button className='sign-button'>Registrarse</button>
+      <button className='sign-button' type='summit'>Registrarse</button>
 
       <p className='login-text'>¿Ya tienes cuenta? <Link to="/Login" className='link'>Inicia sesión</Link></p>
 
-      </div>
-    </main>
+      </form>
+    </section>
     
   )
 }

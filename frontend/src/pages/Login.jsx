@@ -6,7 +6,7 @@ import '../styles/Signup.css'
 function Login() {
   return (
     <main className='background-one'>
-      <div className='sign-container'>
+      <form className='sign-container'>
 
         <h2 className='log-title'>Inicia sesión</h2>
 
@@ -29,10 +29,10 @@ function Login() {
 
         </section>
 
-        <button className='login-button'>Inicia sesión</button>
+        <button className='login-button' type='summit'>Inicia sesión</button>
 
         <p className='sign-text'>¿No tienes cuenta? <Link to="/Signup" className='link'>Registrate</Link></p>
-      </div>
+      </form>
     </main>
     
   )
