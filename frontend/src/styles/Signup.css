@@ -79,6 +79,12 @@
     padding-left: 10px;
 }
 
+input:focus {
+    outline: none; 
+    border: 3.5px solid #375A54 ;
+         
+}
+
 .phone-input, 
 .dni-input {
     width: 122px;
@@ -110,5 +116,7 @@
 .name-input::placeholder {
     color: #00000067
 }
+
+
 
 
