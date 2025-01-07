@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 
 function Login() {
   return (
-    <div className='login-container'>
+    <main className='background-one'>
+      <div className='login-container'>
 
         <section className='contact-container'>
 
@@ -26,7 +27,9 @@ function Login() {
         <button className='login-button'>Inicia sesión</button>
 
         <p className='sign-text'>¿No tienes cuenta? <Link to="/Signup" className='link'>Registrate</Link></p>
-    </div>
+      </div>
+    </main>
+    
   )
 }
 
