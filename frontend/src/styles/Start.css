@@ -1,0 +1,6 @@
+.order-img {
+    background-image: url(../assets/crea_un_pedido.svg);
+    width: 15px; 
+    height: 15px;
+    background-size: cover;
+}
