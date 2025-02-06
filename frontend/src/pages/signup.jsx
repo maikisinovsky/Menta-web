@@ -11,20 +11,20 @@ function Signup() {
 
       <main className='form-container'> 
         <section className='container'>
-        <label className='sign-label'>Nombre y apellido</label>
+        <label className='sign-label'>Nombre</label>
         <input type='text' className='sign-input'></input>
       </section>
 
       <section className='container'>
-        <label className='sign-label'>Mail</label>
+        <label className='sign-label'>Apellido</label>
         <input type='text' className='sign-input'></input>
       </section>
 
-      <section className='dni-phone-container'>
+      <section className='mail-phone-container'>
 
         <div className='container'>
-          <label className='sign-label'>DNI</label>
-          <input type='text' className='dni-input'></input>
+          <label className='sign-label'>Mail</label>
+          <input type='text' className='mail-input'></input>
         </div>
 
         <div className='container'>
