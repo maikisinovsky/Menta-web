@@ -39,7 +39,7 @@ function Login() {
 
         <h2 className='log-title'>Inicia sesión</h2>
 
-        <main className='mail-phone-container'>
+        <main className='mail-password-container'>
           <section className='container'>
             <label className='login-label'>Mail</label>
             <input 
